@@ -1,4 +1,4 @@
-# Mesos - Simple Ubuntu two node cluster
+# PAASY - Simple Ubuntu two node cluster
 
 This project automates a simple Ubuntu 14.04 two node cluster using vagrant and ansible as the provisioner.
 
