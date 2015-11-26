@@ -1,10 +1,8 @@
-# PAASY - Simple Ubuntu two node cluster
+# PAASY - Platform as a server for YOU!
 
 ![alt text](https://cloud.githubusercontent.com/assets/6406166/11431151/d94688d6-945f-11e5-9af6-8451d2b3ea85.png)
 
-This project automates a simple Ubuntu 14.04 two node cluster using vagrant and ansible as the provisioner.
-
-This will build one master node and one slave node.
+This project automates a small 2 node paas on Ubuntu 14.04 utilizing a few open sources tools. This project uses vagrant and ansible as the provisioner.
 
 This build will pull whatever latest builds that are available in the mesosphere repos for mesos, marathon, chronos and zookeeper and also the latest docker versions that are used to run containers on the mesos slaves.
 
@@ -24,12 +22,12 @@ Run it:
 
 1. Clone the project to a directory of your choice
  
-   git clone https://github.com/sarlindo/mesos
+   git clone https://github.com/sarlindo/paasy
 
 
 2. change into the mesos directory
 
-   cd mesos
+   cd paasy
 
 3. bring up the mesos cluster
 
@@ -38,10 +36,5 @@ Run it:
  
 ## Usage
 
-URL for mesos will be - http://192.168.33.10:5050
-
-URL for marathon will be - http://192.168.33.10:8080
-
-URL for chronos will be - http://192.168.33.10:4400
 
 All logs will go into /var/log/mesos
