@@ -27,7 +27,7 @@ Note: This may not work on windows dev machines because I believe the ansible pr
 
 2. change into the mesos directory
 
-   cd paasy
+   cd paas4u
 
 3. bring up the mesos cluster
 
