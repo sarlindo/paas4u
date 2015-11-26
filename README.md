@@ -1,6 +1,6 @@
 # PAASY - Simple Ubuntu two node cluster
 
-[https://cloud.githubusercontent.com/assets/6406166/11431151/d94688d6-945f-11e5-9af6-8451d2b3ea85.png]
+![alt text](https://cloud.githubusercontent.com/assets/6406166/11431151/d94688d6-945f-11e5-9af6-8451d2b3ea85.png)
 
 This project automates a simple Ubuntu 14.04 two node cluster using vagrant and ansible as the provisioner.
 
