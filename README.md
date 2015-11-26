@@ -2,7 +2,7 @@
 
 ![alt text](https://cloud.githubusercontent.com/assets/6406166/11431151/d94688d6-945f-11e5-9af6-8451d2b3ea85.png)
 
-This project automates a small 2 node paas on Ubuntu 14.04 utilizing a few open sources tools. This project uses vagrant and ansible as the provisioner.
+This project automates a small 2 node paas on Ubuntu 14.04 utilizing a few open sources tools. This project uses vagrant, virtualbox and ansible as the provisioner.
 
 This build will pull whatever latest builds that are available in the mesosphere repos for mesos, marathon, chronos and zookeeper and also the latest docker versions that are used to run containers on the mesos slaves.
 
