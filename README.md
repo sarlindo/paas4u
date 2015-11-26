@@ -25,11 +25,11 @@ Note: This may not work on windows dev machines because I believe the ansible pr
    git clone https://github.com/sarlindo/paas4u
 
 
-2. change into the mesos directory
+2. change into the pass4u directory
 
    cd paas4u
 
-3. bring up the mesos cluster
+3. bring up pass4u
 
    vagrant up
 
