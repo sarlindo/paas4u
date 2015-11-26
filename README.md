@@ -10,7 +10,7 @@ However, for mesos-dns, this will pull the binary release 0.4.0 and will automat
 
 ## Installation
 
-Pre-req:
+### Pre-req
 
 1. Ensure you have vagrant installed
 2. Ensure you have virtualbox installed
@@ -18,11 +18,11 @@ Pre-req:
 
 Note: This may not work on windows dev machines because I believe the ansible provisioners won't run on windows, but not 100% sure. This should work fine on a mac or linux machine. 
 
-Run it:
+### O.K enough already, how do I RUN IT?
 
 1. Clone the project to a directory of your choice
  
-   git clone https://github.com/sarlindo/paasy
+   git clone https://github.com/sarlindo/paas4u
 
 
 2. change into the mesos directory
