@@ -1,4 +1,4 @@
-# PAASY - Platform as a service for YOU!
+# PAAS4U - Platform as a service for YOU!
 
 ![alt text](https://cloud.githubusercontent.com/assets/6406166/11431151/d94688d6-945f-11e5-9af6-8451d2b3ea85.png)
 
