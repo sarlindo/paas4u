@@ -15,7 +15,7 @@ There are many opensource tools around these services, but I landed on the follo
 
 To me some of these open sources projects still don't feel production ready and I ran into many issues that required some sort of workaround or I simply avoiding using some features. I know some of these products are actually being used in Production, but I am sure they must have an army of really good devops folks and possibly many scripts to help fix and/or heal issues.
 
-I kept this small, so that it functions fine running a laptop with limited resources and primarily used for testing and learning. There is only a quorum of 1 for mesos masters and consul servers as well.
+I kept this small, so that it functions fine running on a laptop with limited resources and primarily used for testing and learning. There is only a quorum of 1 for mesos masters and consul servers as well.
 
 This build will pull whatever latest builds that are available in the mesosphere repos for mesos, marathon, chronos and zookeeper and also the latest docker versions that are used to run containers on the mesos slaves.  
 
