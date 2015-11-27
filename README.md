@@ -68,7 +68,11 @@ http://wildfly.192.168.33.10.xip.io/node-info        (this is the Web UI for a s
 ## Troubleshooting
 
 
-All logs for marathon, mesos-master, mesos-slave and chronos will go into /var/log/mesos in their individual log files.
+All logs for marathon, mesos-master, mesos-slave and chronos will go into 
+
+```
+/var/log/mesos
+```
 
 All logs for docker containers can be inspected with the command 
 
