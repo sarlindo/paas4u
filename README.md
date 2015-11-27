@@ -2,14 +2,16 @@
 
 ![alt text](https://cloud.githubusercontent.com/assets/6406166/11431151/d94688d6-945f-11e5-9af6-8451d2b3ea85.png)
 
-This project automates a small 2 node paas on Ubuntu 14.04 utilizing a few open sources projects. There are many good projects that have already pieced together these open source projects to create a paas, but I created this project primarily to get a "hands-on" understanding around all the hype around containers, datacenter resource abstractions, clustering, service discovery, scaling etc... being utilized by companies such as twitter and airbnb. There are many opensource tools around these services, but I landed on the following for now:
+This project automates a small 2 node paas on Ubuntu 14.04 utilizing a few open sources projects. There are many good projects that have already pieced together these open source projects to create a paas, but I created this project primarily to get a "hands-on" understanding around all the hype around containers, datacenter resource abstractions, clustering, service discovery, scaling etc... being utilized by companies such as twitter and airbnb. 
 
-Mesos + Marathon   - Used to abstract resources such as cpu, memory, storage and do service orchestration
-Docker             - Used to provide the "container" services
-Consul             - Used to provide the service discovery
-Consul-template    - Used to provide dynamic configuration
-HaProxy            - Used to provide load balancing and proxy
-Mesos-Consul       - Used as a bridge between Mesos and Consul for dynamic tasks/service discovery
+There are many opensource tools around these services, but I landed on the following for now:
+
+1. Mesos + Marathon   - Used to abstract resources such as cpu, memory, storage and do service orchestration
+2. Docker             - Used to provide the "container" services
+3. Consul             - Used to provide the service discovery
+4. Consul-template    - Used to provide dynamic configuration
+5. HaProxy            - Used to provide load balancing and proxy
+6. Mesos-Consul       - Used as a bridge between Mesos and Consul for dynamic tasks/service discovery
 
 Let me say, to me alot of these open sources projects still don't feel production ready and I ran into many issues that required some sort of workaround or I simply avoiding using some features. I know some of these products are actually being used in Production, but I am sure they must have an army of really good devops folks and possibly many scripts to help fix and/or heal issues.
 
