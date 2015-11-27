@@ -2,10 +2,20 @@
 
 ![alt text](https://cloud.githubusercontent.com/assets/6406166/11431151/d94688d6-945f-11e5-9af6-8451d2b3ea85.png)
 
-This project automates a small 2 node paas on Ubuntu 14.04 utilizing a few open sources tools. This project uses vagrant, virtualbox and ansible as the provisioner.
+This project automates a small 2 node paas on Ubuntu 14.04 utilizing a few open sources projects. There are many good projects that have already pieced together these open source projects to create a paas, but I created this project primarily to get a "hands-on" understanding around all the hype around containers, datacenter resource abstractions, clustering, service discovery, scaling etc... being utilized by companies such as twitter and airbnb. There are many opensource tools around these services, but I landed on the following for now:
+
+Mesos + Marathon   - Used to abstract resources such as cpu, memory, storage and do service orchestration
+Docker             - Used to provide the "container" services
+Consul             - Used to provide the service discovery
+Consul-template    - Used to provide dynamic configuration
+HaProxy            - Used to provide load balancing and proxy
+Mesos-Consul       - Used as a bridge between Mesos and Consul for dynamic tasks/service discovery
+
+Let me say, to me alot of these open sources projects still don't feel production ready and I ran into many issues that required some sort of workaround or I simply avoiding using some features. I know some of these products are actually being used in Production, but I am sure they must have an army of really good devops folks and possibly many scripts to help fix and/or heal issues.
+
+I kept this small, so that is functions fine running a laptop with limited resources and primarily used for testing and learning. There is only a quorum of 1 for mmesos masters and consul servers as well.
 
 This build will pull whatever latest builds that are available in the mesosphere repos for mesos, marathon, chronos and zookeeper and also the latest docker versions that are used to run containers on the mesos slaves.  
-However, for mesos-dns, this will pull the binary release 0.4.0 and will automatically deploy mesos-dns as an application using marathon.
 
 ## Installation
 
@@ -63,3 +73,15 @@ All logs for docker containers can be inspected with the command
 ```
 sudo docker logs <containerid>
 ```
+
+## TO-DO
+
+clean up the ansible roles to remove some hardcoding
+add in jenkins to attempt continuous integration and deployment
+add in vault to play with secrets
+add in kubernetes as a framework into mesos
+add windows dev machine support with ansible
+add new frontend to allow multi-tenancy, where developers only see what app they created and isolated from other teams
+play with linking containers, swarm?
+add some sort of central logging
+add some sort of monitoring
