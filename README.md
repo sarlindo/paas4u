@@ -91,3 +91,4 @@ sudo docker logs <containerid>
 7. play with linking containers, swarm?
 8. add some sort of central logging
 9. add some sort of monitoring
+10. Authentication & Authorization
