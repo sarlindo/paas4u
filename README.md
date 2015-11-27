@@ -19,19 +19,19 @@ Note: This may not work on windows dev machines because I believe the ansible pr
 
 ### O.K enough already, how do I RUN IT?
 
-1. Clone the project to a directory of your choice
+Clone the project to a directory of your choice
 
 ``` 
    git clone https://github.com/sarlindo/paas4u
 ```
 
-2. change into the pass4u directory
+change into the pass4u directory
 
 ```
    cd paas4u
 ```
 
-3. bring up pass4u
+bring up pass4u
 
 ```
    vagrant up
