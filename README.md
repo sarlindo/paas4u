@@ -13,7 +13,7 @@ There are many opensource tools around these services, but I landed on the follo
 5. HaProxy            - Used to provide load balancing and proxy
 6. Mesos-Consul       - Used as a bridge between Mesos and Consul for dynamic tasks/service discovery
 
-Let me say, to me alot of these open sources projects still don't feel production ready and I ran into many issues that required some sort of workaround or I simply avoiding using some features. I know some of these products are actually being used in Production, but I am sure they must have an army of really good devops folks and possibly many scripts to help fix and/or heal issues.
+To me some of these open sources projects still don't feel production ready and I ran into many issues that required some sort of workaround or I simply avoiding using some features. I know some of these products are actually being used in Production, but I am sure they must have an army of really good devops folks and possibly many scripts to help fix and/or heal issues.
 
 I kept this small, so that is functions fine running a laptop with limited resources and primarily used for testing and learning. There is only a quorum of 1 for mesos masters and consul servers as well.
 
