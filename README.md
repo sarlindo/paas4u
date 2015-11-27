@@ -78,12 +78,12 @@ sudo docker logs <containerid>
 
 ## TO-DO
 
-clean up the ansible roles to remove some hardcoding
-add in jenkins to attempt continuous integration and deployment
-add in vault to play with secrets
-add in kubernetes as a framework into mesos
-add windows dev machine support with ansible
-add new frontend to allow multi-tenancy, where developers only see what app they created and isolated from other teams
-play with linking containers, swarm?
-add some sort of central logging
-add some sort of monitoring
+1. clean up the ansible roles to remove some hardcoding
+2. add in jenkins to attempt continuous integration and deployment
+3. add in vault to play with secrets
+4. add in kubernetes as a framework into mesos
+5. add windows dev machine support with ansible
+6. add new frontend to allow multi-tenancy, where developers only see what app they created and isolated from other teams
+7. play with linking containers, swarm?
+8. add some sort of central logging
+9. add some sort of monitoring
