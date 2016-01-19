@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
       node1.vm.network "private_network", ip: "192.168.33.10"
       node1.vm.hostname = "node1"
       node1.vm.provider "virtualbox" do |v|
-        v.customize ["modifyvm", :id, "--memory", "1512"]
+        v.customize ["modifyvm", :id, "--memory", "2012"]
 	v.customize ["modifyvm", :id, "--cpus", "1"]
       end
       node1.vm.provision "ansible" do |ansible|
